@@ -1,0 +1,392 @@
+
+
+video {
+    width: 100% !important;
+    height: auto !important;
+}
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #252525;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(22, 22, 22, 0.884);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.add-uppercase {
+    text-transform: uppercase !important;
+}
+.item .down-content h4{
+    font-size: 17px !important;
+}
+.item .down-content span {
+  font-size: 15px !important;
+}
+.brand {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.cena {
+  color: #111111 !important;
+}
+s {
+  color: #a1a1a1;
+  font-size: 14px !important;
+}
+.color-outline {
+    border-color: #a1a1a1 !important;
+    border-radius: 0px !important;
+    padding: 5px !important;
+    font-size: 13.5px !important; 
+}
+label {
+    color: #a1a1a1;
+    font-size: 12.5px;
+    letter-spacing: 1.2px;
+    /* font-weight: bold; */
+}
+.form-control:focus {
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.border-bottom {
+  height: 1px !important;
+  background-color: #a1a1a1 !important;
+}
+/* checkbox */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+}
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: #a1a1a1;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid rgba(0, 0, 0, 0.719);
+  /* border-radius: 0.15em; */
+  transform: translateY(-0.075em);
+}
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0) !important;
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #111111;
+}
+.form-control + .form-control {
+  margin-top: 1em;
+}
+input[type="checkbox"]{
+  display: grid !important;
+  place-content: center;
+}
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #111111 !important;
+}
+input[type="checkbox"]:checked::before {
+  transform: scale(1) !important;
+}
+.design-label-checkbox {
+  font-size: 12.5px;
+  color: #111111 !important;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.link:hover {
+  opacity: 0.7;
+  color: #000;
+}
+.right-content .velicina {
+  font-size: 15px !important;
+  color:rgba(0, 0, 0, 0.719) !important;
+  font-weight: bold !important;
+}
+a {
+  text-decoration: none !important;
+}
+/* #podkategorija1, #podkategorija2 {
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.719);
+}
+#podkategorija1:hover, #podkategorija2:hover {
+  font-weight: bold;
+  color: #000;
+  opacity: 0.7;
+} */
+
+/*breadcrumb*/
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  background-color: #fff !important;
+}
+.breadcrumb .breadcrumb-item a, .breadcrumb .breadcrumb-item {
+  color: #000 !important;
+  font-size: 14px;
+  text-decoration: none;
+}
+.breadcrumb .breadcrumb-item:hover {
+  opacity: 0.6 !important;
+}
+
+/* registracija */
+.porukaReg, .porukaPrijava, .porukaProizvod, .porukaIzmena {
+    line-height: normal;
+    line-break:strict;
+    text-indent: 2px;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.719);
+}
+
+.color-gray {
+    color: #000;
+    font-size: 12.5px !important;
+    margin-right: 3px !important;
+}
+/* password */
+input[type='text'], input[type='email'], input[type='password']  {
+  border: none !important;
+  outline: none !important;
+  background:transparent;
+  margin-top: 3px;
+  /* padding: 3px; */
+}
+input[type="text"], input[type='email'], input[type='password'] {
+  border: 1px solid #000;
+}
+ #hide, #show, #hide2, #show2, #hide_, #show_{
+   float: right;
+   cursor: pointer;
+   margin-right: 10px !important;
+ }
+ #hide, #hide2, #hide_ {
+   display: none;
+ }
+ .form-group {
+   border: 1px solid #000;
+ }
+ .form-group:hover {
+   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+ }
+
+ .sidebar {
+   background-color: #e2e2e2;
+ }
+ .sidebar-links {
+   color: #000;
+   font-size: 15px;
+ }
+ .sidebar-links:hover {
+   opacity: 0.7;
+   color: #000;
+ }
+.link-pogledaj {
+  text-decoration: none;
+  margin-left: 45px;
+  font-size: 12px;
+  color: #000;
+}
+.link-pogledaj:hover {
+  font-weight: bold;
+  color: #000;
+}
+/* poruka uspeh -> registracija */
+#rezultatReg, #rezultatPrijava, #porukaP, #rezultatUnos, #rezultatIzmena {
+    font-weight: bold;
+    font-size: 14.5px !important;
+    color: #000;
+}
+.nav-link {
+  color: #000 !important;
+}
+.admin-links li a {
+  color: #000 !important;
+  font-weight: bold;
+  font-size: 14px !important;
+}
+.admin-links li a:hover {
+  color: #000 !important;
+  opacity: 0.5;
+}
+.fa-table, .fa-brands {
+  font-size: 14px !important;
+}
+table th {
+  font-size: 15px !important;
+  white-space: nowrap;
+}
+table td {
+  font-size: 14px;
+}
+.slikaP {
+  width: 300px !important;
+  height: 300px !important;
+}
+/* .slikaP img {
+  width: 100%;
+} */
+ .marginAdd {
+  margin-top: 13px;
+ }
+.slikaProizvoda {
+  width: 130px;
+}
+.slikaProizvoda img {
+  width: 100%;
+}
+.avatar {
+  width: 60px;
+}
+.avatar img {
+  width: 100%;
+}
+.nazivTabele {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.fa-xmark {
+  font-size: 22px;
+  color: #d61f1fa1;
+}
+/* table {
+  overflow-y: auto !important;
+  overflow-x: auto !important;
+  cursor: grab !important;
+}
+table a.admin-links{
+  cursor: pointer;
+  cursor: hand;
+} */
+h2.naslov {
+    margin-top: 80px !important;
+}
+.saznajVise {
+  font-size: 15px;
+  border: 1px solid #fff;
+  padding: 10px 10px;
+}
+.font-size {
+  font-size: 13px !important;
+}
+.slika {
+  width: 300px;
+}
+.slika img {
+  width: 100%;
+}
+
+.slikaKorpa {
+  width: 300px;
+}
+.slikaKorpa img {
+  width: 100%;
+}
+.naziv {
+    margin-top: 26px;
+    font-size: 18px !important;
+    font-weight: bold;
+    word-wrap:break-word;
+    max-width: 300px;
+}
+
+.korpa-naslov {
+  font-weight: bold;
+}
+.fs {
+  margin-left: 2px;
+  font-size: 10px;
+}
+.fs-font-weight {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.fs-btn {
+  font-size: 13px !important;
+  word-wrap: no-wrap;
+}
+.slikaKorpa2 {
+  width: 170px;
+}
+.slikaKorpa2 img {
+  width: 100%;
+}
+.naziv2 {
+  font-weight: bold;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.naslov {
+  font-weight: bold;
+}
+.close:focus {
+  outline: none !important;
+}
+.close {
+  outline: none !important;
+}
+
+.slika-autor {
+  width: 250px !important;
+  height: 400px !important;
+}
+.slika-autor img {
+  width: 100%;
+}
+.strana404 {
+  font-size: 120px !important;
+  letter-spacing: 15px;
+  font-weight: bold;
+}
+.poruka404 {
+  font-size: 16px !important;
+}
+.fw {
+  font-weight: bold;
+}
